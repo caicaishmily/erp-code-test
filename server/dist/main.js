@@ -12,7 +12,8 @@ async function bootstrap() {
         .build();
     const document = swagger_1.SwaggerModule.createDocument(app, config);
     swagger_1.SwaggerModule.setup("docs", app, document);
-    await app.listen(4000);
+    app.enableCors();
+    await app.listen(4001);
 }
 bootstrap();
 //# sourceMappingURL=main.js.map
