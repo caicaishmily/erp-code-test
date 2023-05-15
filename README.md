@@ -15,7 +15,7 @@ docker-compose exec db psql -U postgres -c "CREATE DATABASE erp_dev;
 
 `yarn dev`
 
-open `http://127.0.0.1:5174/`
+open `http://127.0.0.1:4000/`
 
 ## Back-end
 
@@ -23,6 +23,6 @@ open `http://127.0.0.1:5174/`
 
 `yarn start:dev`
 
-open `localhost:3000/docs`
+open `localhost:4001/docs`
 
 then you can view the documentation of APIs
